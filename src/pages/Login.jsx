@@ -28,7 +28,7 @@ const Login = () => {
     
         try {
             // Make a POST request to your login API endpoint
-            const response = await axios.post('http://localhost:4000/api/v1/auth/login', {
+            const response = await axios.post('https://travel-world-backend.vercel.app/api/v1/auth/login', {
                 email: credentials.email,
                 password: credentials.password
             });
