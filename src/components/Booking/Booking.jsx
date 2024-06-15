@@ -145,7 +145,7 @@ const Booking = ({ tour, avgRating }) => {
     console.log('Submitting credentials:', credentials);
 
     try {
-      const response = await axios.post('http://localhost:4000/api/v1/booking/', credentials, {
+      const response = await axios.post('https://travel-world-backend.vercel.app/api/v1/booking/', credentials, {
         headers: {
           'Content-Type': 'application/json'
         }
