@@ -5,6 +5,7 @@ import {Container, Row, Col, Form, FormGroup, Button} from'reactstrap';
 import {Link, useNavigate} from'react-router-dom';
 import axios from 'axios';
 import "../styles/login.css";
+import BASE_URL from "../utils/config.js"
 
 import loginImg from "../assets/images/login.png"
 import userIcon from "../assets/images/user.png"
@@ -28,7 +29,7 @@ const Login = () => {
     
         try {
             // Make a POST request to your login API endpoint
-            const response = await axios.post('http://localhost:4000/api/v1/auth/login',{
+            const response = await axios.post(`${BASE_URL}auth/login`,{
                 email: credentials.email,
                 password: credentials.password
             });
