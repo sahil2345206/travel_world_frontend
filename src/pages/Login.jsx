@@ -5,10 +5,10 @@ import {Container, Row, Col, Form, FormGroup, Button} from'reactstrap';
 import {Link, useNavigate} from'react-router-dom';
 import axios from 'axios';
 import "../styles/login.css";
-import BASE_URL from "../utils/config.js"
 
 import loginImg from "../assets/images/login.png"
 import userIcon from "../assets/images/user.png"
+import { BASE_URL } from '../utils/config';
 
 
 
@@ -29,7 +29,7 @@ const Login = () => {
     
         try {
             // Make a POST request to your login API endpoint
-            const response = await axios.post(`${BASE_URL}auth/login`,{
+            const response = await axios.post(`${BASE_URL}auth/login/`,{
                 email: credentials.email,
                 password: credentials.password
             });
@@ -37,12 +37,12 @@ const Login = () => {
             // Handle successful login (e.g., store token in localStorage, redirect user, etc.)
             console.log('Login successful', response);
 
-            if(response.status == 200){
+            // if(response.status == 200){
                 localStorage.setItem("user", JSON.stringify(response.data))
                 navigate('/home')
-            }else{
-                alert('please login with correct email and password')
-            }
+            // }else{
+            //     alert('please login with correct email and password')
+            // }
         } catch (error) {
             // Handle errors (e.g., display error message to user)
             console.error('Login error:', error.response.data);
