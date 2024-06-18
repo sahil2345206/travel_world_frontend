@@ -21,7 +21,7 @@ const Newsletter = () => {
                         </div>
 
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae in, asperiores esse maxime officia omnis enim. Obcaecati exercitationem perspiciatis veritatis voluptates eos vitae reiciendis, architecto totam qui placeat ipsa. Vel.
+                            Explore a diverse range of destinations across the globe. From the bustling streets of Tokyo and the romantic canals of Venice to the pristine beaches of the Maldives and the majestic safaris of Africa, we cover it all. We design custom itineraries that suit your travel style, whether you're looking for cultural immersion, adventure, relaxation, or a mix of everything.
                         </p>
                     </div>
                 </Col>

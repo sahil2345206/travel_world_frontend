@@ -41,9 +41,8 @@ const Testimonials = () => {
   <Slider {...settings}>
     <div className='testimonial py-4 px-3'>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        "I used Travel World for a business trip to Singapore, and they did not disappoint. The process was smooth, and they found me a great hotel close to my conference venue. I also appreciated the local dining recommendations. There was a small mix-up with my airport transfer, but it was resolved quickly. Overall, a great experience."
         </p>
-
         <div className='d-flex align-items-center gap-4 mt-3'>
             <img src={ava01} className='w-25 h-25 rounded-2' alt="" />
             <div>
@@ -54,7 +53,7 @@ const Testimonials = () => {
     </div>
     <div className='testimonial py-4 px-3'>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        "Booking with Travel World was the best decision for our anniversary trip to Paris. The hotel they recommended was charming and centrally located, and the exclusive deals they offered saved us a lot of money. The entire trip was seamless and enjoyable. Thank you, Travel World!"
         </p>
 
         <div className='d-flex align-items-center gap-4 mt-3'>
@@ -67,9 +66,8 @@ const Testimonials = () => {
     </div>
     <div className='testimonial py-4 px-3'>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        "Travel World made our honeymoon to Bali absolutely perfect. The itinerary was tailored to our preferences, and the accommodations were luxurious and romantic. Every detail was taken care of, allowing us to fully relax and enjoy our time together. We can't wait to book our next adventure with them!"
         </p>
-
         <div className='d-flex align-items-center gap-4 mt-3'>
             <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
             <div>
@@ -80,7 +78,7 @@ const Testimonials = () => {
     </div>
     <div className='testimonial py-4 px-3'>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        "I've traveled with many tour companies, but Travel World stands out for their exceptional service and attention to detail. From the moment I booked my trip to Japan, I felt supported and well-informed. The guided tours were insightful, and the local recommendations were spot on. Highly recommended!"
         </p>
 
         <div className='d-flex align-items-center gap-4 mt-3'>

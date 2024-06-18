@@ -46,7 +46,7 @@ const footer = () => {
           <Col lg='3'>
             <div className="logo">
               <img src={logo} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus culpa nihil animi repellat, eaque commodi nisi blanditiis, pariatur nam minima consectetur sit hic harum quam maxime iusto a incidunt similique.</p>
+                <p>At Travel World, our top priority is creating exceptional travel experiences that our customers will cherish forever. These reviews highlight our dedication to personalized service, meticulous planning, and customer satisfaction. Whether it's a romantic honeymoon, a family vacation, a solo adventure, a business trip, or a group expedition, we strive to exceed expectations and provide unforgettable journeys. Join our community of happy travelers and let Travel World turn your travel dreams into reality. Your adventure awaits!.</p>
 
                 <div className="social__links d-flex align-items-center gap-4">
                   <span>
@@ -108,7 +108,7 @@ const footer = () => {
                   </span>
                   Address :
                 </h6>
-                <p className='mb-0'>Sylhet, Bangladesh</p>
+                <p className='mb-0'>JAMMU AND KASHMIR,INDIA</p>
                 </ListGroupItem>
 
                 <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
@@ -118,7 +118,7 @@ const footer = () => {
                   </span>
                   Email :
                 </h6>
-                <p className='mb-0'>adresse-email@gmail.com</p>
+                <p className='mb-0'>Travelworld123@gmail.com</p>
                 </ListGroupItem>
                 
                 <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
@@ -128,13 +128,13 @@ const footer = () => {
                   </span>
                   Phone :
                 </h6>
-                <p className='mb-0'>+0123456789</p>
+                <p className='mb-0'>+9123456789</p>
                 </ListGroupItem>
             </ListGroup>
           </Col>
 
           <Col lg='12' className='text-center pt-5'>
-            <p className='copyright'>Copyright {year}, designed and developed by LastName FirstName. All rights reserved. </p>
+            <p className='copyright'>Copyright {year}, Designed and Developed by SUNIDHI BHAGAT. All rights reserved. </p>
           </Col>
 
         </Row>
