@@ -35,7 +35,7 @@ const Home = () => {
                 <span className='highlight'>memories</span>
               </h1>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet, risus a iaculis feugiat, quam turpis feugiat nisl, vel interdum arcu erat eu ligula. Nullam et lectus varius, fringilla arcu aliquet, fringilla nisl. Nunc molestie, dui at sodales mattis, augue nisi blandit tellus, id sodales velit felis vel elit. Nam tristique porttitor ipsum, vitae pellentesque justo faucibus sit amet. Mauris nec nunc leo. Donec sed leo ac lacus eleifend fringilla blandit eu ipsum. 
+              Welcome to Travel World, where your journey begins! At Travel World, we believe that travel is more than just a destination; it's an experience that shapes you, enriches your life, and creates memories that last a lifetime. Our mission is to turn your travel dreams into reality by offering comprehensive tour booking services tailored to your unique interests and preferences.. 
               </p>
             </div>
           </Col>
