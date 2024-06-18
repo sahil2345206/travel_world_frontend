@@ -116,6 +116,7 @@ import './booking.css';
 import { Form, FormGroup, ListGroup, ListGroupItem, Button } from 'reactstrap';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { BASE_URL } from '../../utils/config';
 
 const Booking = ({ tour, avgRating }) => {
   const user = JSON.parse(localStorage.getItem('user'));
@@ -145,7 +146,7 @@ const Booking = ({ tour, avgRating }) => {
     console.log('Submitting credentials:', credentials);
 
     try {
-      const response = await axios.post('http://localhost:4000/api/v1/booking/', credentials, {
+      const response = await axios.post(`${BASE_URL}/booking`, credentials, {
         headers: {
           'Content-Type': 'application/json'
         }
