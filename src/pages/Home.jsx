@@ -31,7 +31,7 @@ const Home = () => {
               <img src={worldImg} alt=''/>
               </div>
               <h1>
-                Traveling opens the door to creating {' '}
+                Travelling opens the door to creating {' '}
                 <span className='highlight'>memories</span>
               </h1>
               <p>
