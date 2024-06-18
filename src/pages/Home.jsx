@@ -92,13 +92,15 @@ const Home = () => {
       <Container>
         <Row>
           <Col lg='6'>
-            <div className="experience__content">
+          <div className="experience__content">
               <Subtitle subtitle={'Experience'} />
-              <h2>With all our experience <br /> we will serve you</h2>
+              <h2>https://travel-world-backend.vercel.appence <br /> we will serve you</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Travel World is a premier travel website dedicated to providing seamless and personalized travel experiences. With a passion for exploration and a commitment to excellence, we specialize in crafting bespoke tours that cater to all types of travelers, from solo adventurers and couples to families and groups.
                 <br />
-                Quas aliquam, hic tempora inventore suscipit unde.
+                Embark on your next adventure with Travel World. Visit our website to explore our destinations, browse our curated tours, and book your next trip. Whether you're planning a quick getaway or a month-long expedition, Travel World is your trusted partner in travel.
+</p>
+             <p><h1> Travel World – Where Your Journey Begins.</h1>
               </p>
             </div>
 
